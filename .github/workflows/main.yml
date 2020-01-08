@@ -28,7 +28,7 @@ jobs:
 
     # 发布到 github pages
     - name: Deploy
-      uses: peaceiris/action-gh-pages@v2
+      #uses: peaceiris/action-gh-pages@v2
       env:
         PERSONAL_TONEK: ${{ secrets.ACCESS_TOKEN }}
         PUBLISH_BRANCH: gh-pages
